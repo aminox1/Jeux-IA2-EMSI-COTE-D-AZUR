@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Amine - Pac-Man</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-screen">
+        <h1>Bienvenue dans le jeu de Amine - Pac-Man</h1>
+        <p>Instructions :</p>
+        <ul>
+            <li>Appuyez sur <strong>D</strong> pour activer/désactiver le mode debug.</li>
+            <li>Appuyez sur <strong>W</strong> pour ajouter un véhicule errant.</li>
+            <li>Appuyez sur <strong>L</strong> pour activer le mode "file indienne".</li>
+            <li>Appuyez sur un endroit de l'écran pour ajouter un obstacle.</li>
+            <li>Collectez des étoiles pour augmenter votre score.</li>
+            <li>En mode "file indienne", évitez les obstacles sinon vous perdez des vies.</li>
+            <li>Si vos vies tombent à zéro, vous perdez et l'écran "Game Over" apparaît.</li>
+            <li>Utilisez le bouton Restart pour rejouer après un Game Over.</li>
+        </ul>
+        <button id="start-btn">Commencer</button>
+    </div>
+    <script src="p5.js"></script>
+    <script src="vehicle.js"></script>
+    <script src="obstacle.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>

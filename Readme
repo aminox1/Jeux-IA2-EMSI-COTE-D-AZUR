@@ -1,0 +1,30 @@
+Description du Projet
+Ce projet implémente des comportements de véhicules dans un environnement simulé. Les véhicules peuvent suivre un leader, éviter des obstacles et changer de comportement. Les fonctionnalités clés comprennent :
+
+Suivi de Leader : Le leader suit la souris et les autres véhicules peuvent suivre en file indienne ou de manière autonome.
+Évitement d'Obstacles : Les véhicules détectent et évitent les obstacles placés dans l'environnement.
+Collecte d'Étoiles : Les joueurs collectent des étoiles pour augmenter leur score.
+Modes Interactifs : Le joueur peut activer/désactiver le mode debug, ajouter des véhicules errants ou basculer entre les modes de comportement en appuyant sur des touches spécifiques.
+Vies et Conditions de Fin de Jeu : En mode "file indienne", les véhicules perdent des vies lorsqu'ils touchent des obstacles. Le jeu se termine lorsque les vies atteignent zéro ou lorsque le score atteint 100.
+Instructions pour le Joueur
+Touche D : Activer/désactiver le mode debug pour afficher des informations supplémentaires.
+Touche W : Ajouter un véhicule errant avec un comportement aléatoire.
+Touche L : Activer le mode "file indienne" où les véhicules suivent un leader de manière alignée.
+Cliquez sur l'écran : Ajouter un obstacle à la position de la souris.
+Collectez les étoiles jaunes : Augmenter votre score de 10 points par étoile collectée.
+Évitez les obstacles : Si vous êtes en mode "file indienne", évitez les obstacles pour conserver vos vies.
+Scénarios de Fin de Jeu
+Victoire : Lorsque le score atteint 100, un message "Bravo, vous avez terminé !" s'affiche avec un bouton pour redémarrer le jeu.
+Défaite : Si vos vies tombent à zéro en mode "file indienne", le message "Game Over" s'affiche avec un bouton pour rejouer.
+Fonctionnalités Techniques
+Changement de Comportement Dynamique : Les véhicules peuvent basculer entre le suivi en file indienne et un comportement plus autonome.
+Interface Interactive : Une page d'accueil affiche les instructions du jeu avant le démarrage. Les joueurs peuvent commencer le jeu en appuyant sur le bouton "Commencer".
+Relance de Partie : Après une victoire ou une défaite, un bouton "Restart" permet de redémarrer le jeu sans recharger la page.
+Arrière-plan Dynamique : Une image d'arrière-plan personnalisée est utilisée pour améliorer l'immersion visuelle.
+Exemple d'Utilisation
+Lancez le jeu et lisez les instructions sur l'écran d'accueil.
+Cliquez sur "Commencer" pour démarrer la simulation.
+Déplacez votre souris pour guider le leader.
+Collectez des étoiles tout en évitant les obstacles en mode "file indienne".
+Atteignez un score de 100 pour gagner ou essayez d'éviter la défaite en conservant vos vies.
+Ce projet est une introduction ludique à la simulation de comportements collectifs et au contrôle dynamique dans des environnements interactifs.
